@@ -58,7 +58,7 @@
     height: 64px;
     width: 100%;
     background: #FFFAEF;
-    box-shadow: 0 2px 12px rgba(25,35,53,0.08);
+    box-shadow: 0 2px 12px rgba(25,35,53,0.25);
     position: fixed;
     top: 0;
     left: 0;
@@ -183,7 +183,7 @@ header .profile-img {
     object-fit: cover;
     margin-bottom: 1rem;
     margin-top: 0.5rem;
-    box-shadow: 0 8px 32px rgba(25,35,53,0.18);
+    box-shadow: 0 8px 32px rgba(25,35,53,0.25);
 }
 header h1 {
     margin: 0.5rem 0 1rem 0;
@@ -208,7 +208,7 @@ main {
     margin: 2rem auto;
     background: #fff;
     border-radius: 12px;
-    box-shadow: 0 2px 16px rgba(25,35,53,0.08);
+    box-shadow: 0 2px 16px rgba(25,35,53,0.25);
     padding: 2rem;
 }
 section {
@@ -250,5 +250,6 @@ footer {
         margin: 0 0.5rem;
     }
 }
+
 
 
