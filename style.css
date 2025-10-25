@@ -4,7 +4,7 @@
     aspect-ratio: 2/1;
 }
 
-#Portofolio {
+#portofolio {
     height: fit-content;
 }
 
@@ -126,6 +126,7 @@ body {
     background: #FFFAEF;
     margin: 0;
     color: #192335;
+    padding-bottom: 64px;
 }
 header {
     background: #192335;
@@ -163,7 +164,6 @@ nav a:hover {
 }
 main {
     max-width: 800px;
-    min-height: 50vh;
     margin: 2rem auto;
     background: #fff;
     border-radius: 12px;
@@ -193,11 +193,12 @@ ul {
 
 footer {
     text-align: center;
-    padding: 1rem;
     background: #192335;
     color: #FFFAEF;
-    border-top: 1px solid #19233522;
-    margin-top: 2rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 #Subjects {
